@@ -1,0 +1,19 @@
+{
+  "name": "billing",
+  "version": "1.0.0",
+  "description": "Billing solution",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron index.js",
+    "postinstall": "install-app-deps"
+  },
+  "author": "pratik charwad <charwad.pratik@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-builder": "^20.11.1",
+    "sqlite3": "^4.0.0"
+  },
+  "dependencies": {
+    "sqlite3": "^4.0.0"
+  }
+}
